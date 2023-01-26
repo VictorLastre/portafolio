@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Víctor Lastre">
+    <meta name="description" content="Portafolio desarrollo web de Víctor Lastre">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <!--Titulo-->
+    <title>Víctor Lastre | Desarrollo Web Front-End</title>
+    <!--Favicon-->
+    <link rel="icon" type="imgage/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <a class="navbar-brand" href="#"><img src="imagenes/icono.png" alt="logo de la pagina web" width="65 "></a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>            
+          </div>
+        </div>
+      </nav>
+    
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen" src="imagenes/foto.jpg" alt="Foto de Víctor Lastre" />
+            <h1>Víctor Lastre</h1>
+            <h2>Soy Desarrollador Web, apasionado por lo que hago, y siempre aprendiendo algo nuevo</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop, y logos de HTML, CSS, JavaScript y React.">
+        </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Hola soy Víctor. Placer conocerte.</h2>
+            <p class="seccion-texto">
+              De La Pampa, Argentina. Empiezo mi camino como desarrollador en 2018. Tengo especial interés en el desarrollo front-end ile, he trabajado la mayoría de mis proyectos y potencializado mis habilidades. Fanático de aprender e interactuar con las nuevas tecnologías, estas son las habilidades que he aprendido y mejorado durante mi viaje.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta porttitor dui et malesuada. Praesent bibendum, lacus quis pharetra tristique, enim augue luctus justo, et sagittis ante libero ornare ante. Maecenas at congue lacus, maximus sollicitudin tortor. Praesent erat tellus, pulvinar non nisi posuere, tempus venenatis erat.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Estudios -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta porttitor dui et malesuada. Praesent bibendum, lacus quis pharetra tristique, enim augue luctus justo, et sagittis ante libero ornare ante. Maecenas at congue lacus, maximus sollicitudin tortor. Praesent erat tellus, pulvinar non nisi posuere, tempus venenatis erat.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">freeCodeCamp</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Python</span>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+      <h3 class="seccion-descripcion">Ultimos proyectos creados recientemente...</h3>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
